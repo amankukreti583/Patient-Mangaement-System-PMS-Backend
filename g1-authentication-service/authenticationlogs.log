@@ -1,0 +1,87 @@
+2023-05-01T10:11:59.475+05:30  WARN 13876 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/amank/.m2/repository/org/json/json/20160212/json-20160212.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/amank/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-05-01T10:11:59.568+05:30  INFO 13876 --- [main] AuthenticationServicePmsApplicationTests : Starting G1AuthenticationServicePmsApplicationTests using Java 17.0.6 with PID 13876 (started by amank in E:\PMS-FINAL-MICROSERVICES-01\final microservices\g1-authentication-service)
+2023-05-01T10:11:59.571+05:30  INFO 13876 --- [main] AuthenticationServicePmsApplicationTests : The following 1 profile is active: "local"
+2023-05-01T10:12:03.111+05:30  INFO 13876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-01T10:12:03.480+05:30  INFO 13876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 290 ms. Found 1 JPA repository interfaces.
+2023-05-01T10:12:08.466+05:30  INFO 13876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-01T10:12:09.845+05:30  INFO 13876 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61c98b6c
+2023-05-01T10:12:09.855+05:30  INFO 13876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-01T10:12:10.143+05:30  INFO 13876 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-05-01T10:12:13.118+05:30  INFO 13876 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-01T10:12:16.293+05:30  WARN 13876 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-01T10:12:22.133+05:30  INFO 13876 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-05-01T10:12:22.417+05:30  INFO 13876 --- [main] AuthenticationServicePmsApplicationTests : Started G1AuthenticationServicePmsApplicationTests in 23.832 seconds (process running for 30.259)
+2023-05-01T10:12:23.443+05:30  WARN 13876 --- [main] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/amank/.m2/repository/org/json/json/20160212/json-20160212.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/amank/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2023-05-01T10:12:23.479+05:30  INFO 13876 --- [main] c.r.i.AutenticationIntegrationTest       : Starting AutenticationIntegrationTest using Java 17.0.6 with PID 13876 (started by amank in E:\PMS-FINAL-MICROSERVICES-01\final microservices\g1-authentication-service)
+2023-05-01T10:12:23.480+05:30  INFO 13876 --- [main] c.r.i.AutenticationIntegrationTest       : The following 1 profile is active: "local"
+2023-05-01T10:12:24.397+05:30  INFO 13876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-01T10:12:24.445+05:30  INFO 13876 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interfaces.
+2023-05-01T10:12:25.259+05:30  INFO 13876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-05-01T10:12:25.264+05:30  INFO 13876 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-05-01T10:12:25.267+05:30  INFO 13876 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-05-01T10:12:25.297+05:30  INFO 13876 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-05-01T10:12:25.345+05:30  INFO 13876 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-01T10:12:25.347+05:30  INFO 13876 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-01T10:12:25.640+05:30  INFO 13876 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-01T10:12:25.642+05:30  INFO 13876 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2152 ms
+2023-05-01T10:12:26.198+05:30  INFO 13876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-05-01T10:12:26.237+05:30  INFO 13876 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a793129
+2023-05-01T10:12:26.237+05:30  INFO 13876 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-05-01T10:12:26.241+05:30  INFO 13876 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-05-01T10:12:26.366+05:30  INFO 13876 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-01T10:12:27.075+05:30  WARN 13876 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-01T10:12:29.067+05:30  INFO 13876 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-05-01T10:12:29.221+05:30  INFO 13876 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 56600 (http) with context path ''
+2023-05-01T10:12:29.233+05:30  INFO 13876 --- [main] c.r.i.AutenticationIntegrationTest       : Started AutenticationIntegrationTest in 5.893 seconds (process running for 37.075)
+2023-05-01T10:12:29.482+05:30  INFO 13876 --- [http-nio-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-01T10:12:29.485+05:30  INFO 13876 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-01T10:12:29.493+05:30  INFO 13876 --- [http-nio-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2023-05-01T10:12:29.598+05:30  WARN 13876 --- [http-nio-auto-1-exec-1] o.s.web.servlet.PageNotFound             : No mapping for POST /api/v1/patient/login
+2023-05-01T10:12:30.011+05:30  WARN 13876 --- [http-nio-auto-1-exec-2] o.s.web.servlet.PageNotFound             : No mapping for POST /api/v1/patient/register
+2023-05-01T10:12:30.143+05:30  INFO 13876 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-01T10:12:30.149+05:30  INFO 13876 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-05-01T10:12:30.296+05:30  INFO 13876 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-05-01T10:12:30.646+05:30  INFO 13876 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-01T10:12:30.649+05:30  INFO 13876 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-05-01T10:12:30.681+05:30  INFO 13876 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-05-01T10:15:51.402+05:30  INFO 28532 --- [restartedMain] c.r.G1AuthenticationServiceApplication   : Starting G1AuthenticationServiceApplication using Java 17.0.6 with PID 28532 (E:\PMS-FINAL-MICROSERVICES-01\final microservices\g1-authentication-service\target\classes started by amank in E:\PMS-FINAL-MICROSERVICES-01\final microservices\g1-authentication-service)
+2023-05-01T10:15:51.409+05:30  INFO 28532 --- [restartedMain] c.r.G1AuthenticationServiceApplication   : The following 1 profile is active: "local"
+2023-05-01T10:15:51.510+05:30  INFO 28532 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-01T10:15:52.787+05:30  INFO 28532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-01T10:15:52.857+05:30  INFO 28532 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2023-05-01T10:15:53.911+05:30  INFO 28532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9004 (http)
+2023-05-01T10:15:53.914+05:30  INFO 28532 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.35] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.1]
+2023-05-01T10:15:53.916+05:30  INFO 28532 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.0].
+2023-05-01T10:15:53.935+05:30  INFO 28532 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1q  5 Jul 2022]
+2023-05-01T10:15:53.949+05:30  INFO 28532 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-01T10:15:53.950+05:30  INFO 28532 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-05-01T10:15:54.121+05:30  INFO 28532 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-01T10:15:54.122+05:30  INFO 28532 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2610 ms
+2023-05-01T10:15:55.089+05:30  INFO 28532 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-05-01T10:15:55.546+05:30  INFO 28532 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@181eeeeb
+2023-05-01T10:15:55.556+05:30  INFO 28532 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-05-01T10:15:55.649+05:30  INFO 28532 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-05-01T10:15:57.621+05:30  INFO 28532 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-01T10:15:58.974+05:30  WARN 28532 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-01T10:16:02.454+05:30  INFO 28532 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-01T10:16:02.476+05:30  INFO 28532 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2023-05-01T10:16:02.691+05:30  INFO 28532 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9004 (http) with context path ''
+2023-05-01T10:16:02.731+05:30  INFO 28532 --- [restartedMain] c.r.G1AuthenticationServiceApplication   : Started G1AuthenticationServiceApplication in 11.935 seconds (process running for 13.021)
+2023-05-01T10:25:01.718+05:30  WARN 28532 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m5s916ms480µs700ns).
+2023-05-01T11:22:20.197+05:30  WARN 28532 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m48s400ms537µs600ns).
